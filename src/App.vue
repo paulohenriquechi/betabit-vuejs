@@ -6,7 +6,6 @@
       PrimeiroComponente
     }
   }
-  
 </script>
 
 <template>

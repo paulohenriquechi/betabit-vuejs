@@ -1,9 +1,17 @@
 <script>
     export default{
-        name: "PrimeiroComponente"
+        name: "PrimeiroComponente",
+        data(){
+            return {
+                nome: "Henrique"
+            }
+        }
     }
 </script>
 
 <template>
-    <h1>Hello Vue</h1>
+    <div>
+        <h1>Hello Vue</h1>
+        <p>Meu nome é {{ nome }}</p>
+    </div>
 </template>
