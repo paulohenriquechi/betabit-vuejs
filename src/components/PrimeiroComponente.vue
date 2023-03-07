@@ -3,7 +3,7 @@
         name: "PrimeiroComponente",
         data(){
             return {
-                nome: "Henrique"
+                nome: "Paulo"
             }
         }
     }
